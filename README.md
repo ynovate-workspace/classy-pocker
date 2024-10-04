@@ -21,17 +21,6 @@
 - Uses **nodemailer** to send out transactional mails via Mailjet SMTP
 - Security-packages included to make the application more robust are: **helmet**, **hpp**, **express-rate-limit** & **express-mongo-sanitize**
 
-## Features
-
-- User can register & login into the frontend application
-  - Password is stored encrypted in DB (!)
-  - Authentication is handled via JWT-webtokens to secure API-transactions & private routes
-- Basic form of Virtual Gaming Currency
-  - User gets a specific amount of VGC after registration, they can use this amount to play on any open table. Should their balance drop to zero they get the same starting amount again for free.
-- App screens: Landing Page, Lobby (choose table etc.), Login Screen / Modal, Registration Screen / Modal, User Dashboard, Game UI
-- User can join a table and play poker ⇒ full game-loop + In-game chat implemented, Functional animations to support visual gameplay experience
-- Localization for two languages implemented (DE, EN)
-
 ## Quick Start
 
 ### Set-up MongoDB
